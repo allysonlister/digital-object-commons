@@ -1,17 +1,17 @@
-Object Type Name,OSTrails primary identifer
-Multimedia,https://schema.org/MediaObject
-Document,https://schema.org/DigitalDocument
-Publication,https://schema.org/ScholarlyArticle
-Questionnaire/survey,http://purl.org/coar/resource_type/NHD0-W6SY
-Dataset,https://schema.org/Dataset
-Image,https://schema.org/ImageObject
-Model,http://semanticscience.org/resource/SIO_000510
-Data management plan,https://vocabularies.coar-repositories.org/resource_types/c_ab20/
-Terminology Artifact,https://schema.org/DefinedTermSet
-Protocol or Workflow,http://purl.obolibrary.org/obo/NCIT_C42753
-Other Object Type,https://vocabularies.coar-repositories.org/resource_types/c_1843/
-Object Type Agnostic,https://schema.org/CreativeWork
-Object Type Not Found,https://fairsharing.org/FAIRsharing.NFOBJT
-Physical object/material,https://schema.org/IndividualProduct
-Software Source Code,https://schema.org/SoftwareSourceCode
-Software Application,https://schema.org/SoftwareApplication
+Object Type Name,OSTrails primary identifer,definition,definition source
+Multimedia,https://schema.org/MediaObject, Any multimedia object such as video or audio embedded in a web page or a downloadable dataset. Please note that 'image' is a separate tag., modified from https://schema.org/MediaObject
+Document,https://schema.org/DigitalDocument, A generic object type for any electronic file or document that does not fit into the publication or questionnaire/survey object types. This could include any kind of document or text file as well as training material and coursework.,FAIRsharing and https://schema.org/DigitalDocument
+Publication,https://schema.org/ScholarlyArticle, A scholarly article that includes both 'traditional' journal publications as well as more general publication types such as reports pre-prints and theses.,FAIRsharing
+Questionnaire/survey,http://purl.org/coar/resource_type/NHD0-W6SY, A document with a set of printed or written questions with a choice of answers devised for the purposes of a survey or statistical study.,OBI questionnaire (http://purl.obolibrary.org/obo/OBI_0001000)
+Dataset,https://schema.org/Dataset, Any experimental or observational data; a body of structured information describing some topic(s) of interest., modified from https://schema.org/Dataset
+Image,https://schema.org/ImageObject, Where the digital research object is (i) image based e.g. microscope; telescope; gel images (ii) highly visual e.g. maps. Please note 'multimedia' (for video or audio) is a separate object type. If the object type is a digital representation (including images and 3d scans) of a physical object (e.g. a natural history collection) then please use the 'physical object' tag instead., FAIRsharing
+Model,http://semanticscience.org/resource/SIO_000510, "An abstract, conceptual graphical, mathematical or visualization model that represents empirical objects, phenomena, or physical processes. This includes, e.g., modelled descriptions of different aspects of languages, a molecular biology reaction chain, a systems biology model or a mathematical model of any kind.",DataCite (https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix-1/resourceTypeGeneral/#model)
+Data management plan,https://vocabularies.coar-repositories.org/resource_types/c_ab20/, "Statement describing how research data will be managed throughout a specified research project's life cycle - during and after the active phase of the research project - including terms regarding archiving and potential preservation of the data in a data repository. The data management plan (DMP) is considered to be a 'living' document, i.e. one which can be updated when necessary.", https://terms.codata.org/rdmt/data-management-plan
+Terminology Artifact,https://schema.org/DefinedTermSet, "A set of defined terms, for example a set of categories or a classification scheme, a glossary, dictionary, ontology, vocabulary, terminology, or thesaurus.", FAIRsharing and https://schema.org/DefinedTermSet
+Protocol or Workflow,http://purl.obolibrary.org/obo/NCIT_C42753, "Should be used whenever the resource's scope includes any type of protocol or workflow; protocols are considered specialised workflows and as such are included within a single object type. Workflows are considered to be the operational aspect of a work procedure: how tasks are structured, who performs them, what their relative order is, how they are synchronized, how information flows to support the tasks and how tasks are being tracked. Protocols are plans/workflows that provide a sufficient level of detail and quantitative information to communicate it, so that different agents will reliably be able to independently reproduce the process.",  "http://purl.obolibrary.org/obo/NCIT_C42753, http://purl.obolibrary.org/obo/OBI_0000272 and FAIRsharing"
+Other Object Type,https://vocabularies.coar-repositories.org/resource_types/c_1843/, "This type should only be used if absolutely none of the other types are suitable and the resource is not agnostic of any particular object type. In other words, only use this when the object type for the resource is not among any of the other types provided.", FAIRsharing
+Object Type Agnostic,https://schema.org/CreativeWork, "Used when the resource is applicable across all object types.", FAIRsharing
+Object Type Not Found,https://fairsharing.org/FAIRsharing.NFOBJT, "Only used for certain older records in FAIRsharing, but should never be used when creating new FAIR-IF components (e.g. metrics and tests)", FAIRsharing
+Physical object/material,https://schema.org/IndividualProduct, "Should be used when the resource's scope is the digital representation of material or physical objects, e.g. digitised museum collections or a cell culture database.", FAIRsharing
+Software Source Code,https://schema.org/SoftwareSourceCode, "Computer programming source code. Example: Full (compile ready) solutions, code snippet samples, scripts, templates.", https://schema.org/SoftwareSourceCode
+Software Application,https://schema.org/SoftwareApplication, "An application or tool that is running or ready to run; the product of compiling or executing software source code.", FAIRsharing
